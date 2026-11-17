@@ -7,12 +7,12 @@ Pradeem Gani(1AT24EC110), PavanKalyan B T (1AT24EC107), C track
 
 **Compile the program:**
 ```bash
-gcc main.c -o gatepass.exe
+gcc -g -Wall -Wextra main.c -o main.exe
 ```
 
 **Execute on Windows:**
 ```bash
-./gatepass.exe
+./main.exe
 ```
 
 ## Features That Work
