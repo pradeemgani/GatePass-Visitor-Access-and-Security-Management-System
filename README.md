@@ -1,23 +1,21 @@
 # CP-059 GatePass: Visitor Access and Security Management System
 
-## Individual Project – C Track
+## Team
+Pradeem Gani(1AT24EC110), PavanKalyan B T (1AT24EC107), C track
 
 ## How to Run
 
-Compile the program:
-
+**Compile the program:**
 ```bash
-gcc main.c -o gatepass
+gcc main.c -o gatepass.exe
 ```
 
-Run on Windows:
-
+**Execute on Windows:**
 ```bash
-.\gatepass.exe
+./gatepass.exe
 ```
 
-Run on Linux:
-
+**Execute on Linux:**
 ```bash
 ./gatepass
 ```
@@ -26,31 +24,20 @@ Run on Linux:
 
 ### Core Features
 
-1. **Visitor Registration:** Register visitors by entering their name, phone number, host employee name, and purpose of visit.
-2. **Automatic Visitor ID Generation:** Automatically generates a unique Visitor ID for every successfully registered visitor.
-3. **Automatic GatePass Generation:** Generates a unique GatePass number after successful visitor registration.
-4. **Blocked Visitor Verification:** Checks the visitor's phone number against a predefined blocked list and denies registration to blocked visitors.
-5. **Visitor Entry Tracking:** Records the visitor's entry date and time automatically.
-6. **Visitor Exit Tracking:** Records the actual exit date and time using the visitor's GatePass number.
+1. **Register a Visitor:** Allows security personnel to enter the visitor's name, phone number, host employee name, and purpose of visit.
+2. **Generate Visitor ID:** Automatically generates a unique Visitor ID for every successfully registered visitor.
+3. **Generate GatePass:** Automatically generates a unique GatePass number for approved visitors.
+4. **Blocked Visitor Verification:** Checks the visitor's phone number against a predefined blocked list and denies registration if the visitor is blocked.
+5. **Record Visitor Entry:** Automatically records the date and time of visitor entry.
+6. **Record Visitor Exit:** Records the visitor's exit time using their GatePass number.
 7. **Display All Visitors:** Displays the details of all registered visitors.
-8. **Currently Inside Monitoring:** Displays only visitors who have entered the premises but have not yet recorded their exit.
+8. **Show Currently Inside Visitors:** Displays visitors who have entered the premises but have not yet recorded their exit.
 
 ### Stretch Features
 
-1. **File-Based Data Persistence:** Saves visitor records in a file so that information remains available after closing and restarting the application.
+1. **File-Based Data Storage:** Saves visitor records permanently using file handling.
 2. **Automatic Record Retrieval:** Loads previously saved visitor records when the program starts.
-3. **Unique ID Continuity:** Continues generating Visitor IDs and GatePass numbers based on previously saved records.
-
-## Technologies Used
-
-- C Programming Language
-- File Handling
-- String Handling
-- Functions
-- Arrays and Structures (if used in the implementation)
-- Conditional Statements
-- Loops
-- Date and Time Handling
+3. **Persistent ID Generation:** Continues Visitor ID and GatePass number generation based on previously stored records.
 
 ## Sample Run
 
@@ -93,8 +80,8 @@ Purpose: Meeting
 ======================================
 ```
 
-*Note: This is an illustrative sample. Replace it with actual console output from your final C program before submission.*
+*Note: The above is an illustrative sample. Replace it with actual console output or screenshots from your final application.*
 
 ## Project Objective
 
-To develop a simple and efficient visitor access and security management system that helps organizations manage visitor registration, generate GatePass numbers, verify blocked visitors, and maintain accurate visitor entry and exit records.
+The objective of GatePass is to develop a simple and efficient Visitor Access and Security Management System that simplifies visitor registration, improves security through blocked visitor verification, generates unique GatePass numbers, and maintains accurate visitor entry and exit records.
