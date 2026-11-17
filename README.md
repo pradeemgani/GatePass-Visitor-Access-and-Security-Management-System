@@ -15,11 +15,6 @@ gcc main.c -o gatepass.exe
 ./gatepass.exe
 ```
 
-**Execute on Linux:**
-```bash
-./gatepass
-```
-
 ## Features That Work
 
 ### Core Features
